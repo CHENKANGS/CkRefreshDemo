@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/sjx_bg_layout"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="10dp"
+        android:background="@color/main_bg">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="50dp"
+            android:src="@mipmap/ic_launcher"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_child_text"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="标的车"
+        android:textColor="@color/text_color_red"
+        android:textSize="14sp"
+        />
+    <!--<View-->
+        <!--style="@style/line" android:layout_marginLeft="10dp"-->
+        <!--/>-->
+    <!--<LinearLayout  android:layout_height="32dp" style="@style/ks_layout" android:background="@drawable/layout_bg" >-->
+        <!--<TextView-->
+            <!--style="@style/ks_text_right_tv"-->
+            <!--android:textColor="@color/gray"-->
+            <!--android:layout_weight="2"-->
+            <!--android:textSize="@dimen/textSize12"-->
+            <!--android:text="品牌型号"/>-->
+        <!--<TextView-->
+            <!--style="@style/ks_text_right_tv"-->
+            <!--android:textColor="@color/gray"-->
+            <!--android:textSize="@dimen/textSize12"-->
+            <!--android:text="车牌号"/>-->
+        <!--<TextView-->
+            <!--style="@style/ks_text_right_tv"-->
+            <!--android:textColor="@color/gray"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="@dimen/textSize12"-->
+            <!--android:text="回收项"/>-->
+        <!--<TextView-->
+            <!--style="@style/ks_text_right_tv"-->
+            <!--android:textColor="@color/gray"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="@dimen/textSize12"-->
+            <!--android:text="查勘状态"/>-->
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/jsz_name_tv"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="@style/ks_edit_right"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="center_vertical"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="-"&ndash;&gt;-->
+            <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--</LinearLayout>-->
+    <!--<View style="@style/line" android:layout_marginLeft="10dp"/>-->
+    <!--<LinearLayout android:layout_height="32dp"   style="@style/ks_layout" android:background="@drawable/layout_bg" >-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_child_chexing"-->
+            <!--style="@style/ks_text_right_tv"-->
+            <!--android:textColor="@color/textcolor_black"-->
+            <!--android:layout_weight="2"-->
+            <!--android:paddingRight="3dp"-->
+            <!--android:textSize="@dimen/textSize12"-->
+            <!--tool:text="丰田牌GTMKSJDHSDFSDFdaDDSAFDFIJ"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_child_chepai"-->
+            <!--style="@style/ks_text_right_tv"-->
+            <!--android:textColor="@color/textcolor_black"-->
+            <!--android:textSize="@dimen/textSize12"-->
+            <!--tool:text="鄂A15658"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_child_huishou"-->
+            <!--style="@style/ks_text_right_tv"-->
+            <!--android:textColor="@color/textcolor_black"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="@dimen/textSize12"-->
+            <!--tool:text="2"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_child_type"-->
+            <!--style="@style/ks_text_right_tv"-->
+            <!--android:textColor="@color/textcolor_grayyellow"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="@dimen/textSize12"-->
+            <!--tool:text="查看完成"/>-->
+    <!--</LinearLayout>-->
+    <!--<View style="@style/line" android:layout_height="5dp" android:background="@color/main_bg"/>-->
+
+
+</LinearLayout>

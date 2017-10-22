@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ff_wms_rf.feifanzhixing.com.refreshdemo">
+
+    <application
+        android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.jd.JdActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.tmall.TmallActivity"
+            android:label="@string/title_activity_tm"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.other.SmarActivity"
+            android:label="@string/title_activity_tm"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.other.BezierRadarActivity"/>
+        <activity android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.other.ClassicsActivity"/>
+        <activity android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.other.DeliveryActivity"/>
+        <activity android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.other.MaterialActivity"/>
+        <activity android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.other.PhoenixActivity"/>
+        <activity android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.other.WaterDropActivity"/>
+        <activity android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.other.WaveSwipeActivity"/>
+
+        <activity
+            android:name="ff_wms_rf.feifanzhixing.com.refreshdemo.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

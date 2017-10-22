@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ff_wms_rf.feifanzhixing.com.refreshdemo.HomeActivity"
+    tools:showIn="@layout/activity_home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_jd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Jd"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/btn_tmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tmall"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+    <Button
+        android:id="@+id/btn_Classics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默认的"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+    <Button
+        android:id="@+id/btn_Material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Material风格"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+    <Button
+        android:id="@+id/btn_BezierRadar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="贝塞尔雷达"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+    <Button
+        android:id="@+id/btn_Phoenix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="金色校园"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+    <Button
+        android:id="@+id/btn_WaterDrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="苹果水滴"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+    <Button
+    android:id="@+id/btn_WaveSwipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="全屏水波"
+    android:gravity="center"
+    android:layout_margin="10dp" />
+
+
+    <Button
+        android:id="@+id/btn_Dropbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="掉落盒子"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+    <Button
+        android:id="@+id/btn_Delivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="气球快递"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
